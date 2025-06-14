@@ -1,0 +1,104 @@
+/* Reset default spacing and set font */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Top navigation bar */
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-left: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  #conditionInput {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+  }
+  
+  #btnSearch {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  /* Main container */
+  .container {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  /* Form styling */
+  .analysisForm h1 {
+    font-size: 24px;
+  }
+  
+  .analysisForm div {
+    margin: 10px 0;
+  }
+  
+  .analysisForm label {
+    margin-right: 10px;
+  }
+  
+  .analysisForm input[type="text"],
+  .analysisForm input[type="number"],
+  .analysisForm select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 200px;
+  }
+  
+  .analysisForm input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  #addPatient {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 2px;
+  }
+  
+  #report {
+    margin-top: 20px;
+  }
+  
+  /* Optional: background color for full page */
+  body {
+    background-color: #2e2e2e;
+  }
+  
